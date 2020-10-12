@@ -12,6 +12,7 @@ public class Exercise2 {
         int ft = newMi / 12;
         int newFt = newMi % 12;
 
+
         System.out.println("\nMiles  : " + mi);
         System.out.println("Feet   : " + ft);
         System.out.println("Inches : " + newFt);

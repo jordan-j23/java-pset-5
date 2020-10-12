@@ -11,6 +11,7 @@ public class Exercise10 {
         String upperCity = city.toUpperCase();
         String lowerCity = city.toLowerCase();
 
+
         System.out.printf("%nText   : " + city + "%nLength : " + leng + "%nUpper  : " + upperCity + "%nLower  : " + lowerCity);
     }
 }

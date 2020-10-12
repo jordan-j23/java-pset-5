@@ -9,6 +9,7 @@ public class Exercise8 {
         int l = text.length();
         int midpoint = (l / 2);
         String backwardsText = text.substring(midpoint, l).concat(text.substring(0, midpoint)).toUpperCase();
+
         System.out.printf("%n" + backwardsText + ".");
     }
 }

@@ -13,6 +13,7 @@ public class Exercise3 {
 
         double circleArea = Math.PI * (Math.pow(0.5 * dm, 2));
         double sumArea = area - circleArea;
+
         System.out.printf("\nSurface Area  : %,.2f%n", sumArea);
         input.close();
     }

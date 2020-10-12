@@ -13,6 +13,7 @@ public class Exercise9 {
 
         String initials = (firstName.charAt(0) + midName.substring(0, 1) + lastName.charAt(0)).toUpperCase();
 
+
         System.out.printf("%n" + initials + ".");
     }
 }

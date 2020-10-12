@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Exercise6 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         System.out.printf("%-10s: ","Length");
         double l = input.nextDouble();
         System.out.printf("%-10s: ","Width");
